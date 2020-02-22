@@ -1,0 +1,18 @@
+
+.snake-dot {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    background-color: green;
+    border: 1px solid #fff;
+    z-index: 2;
+    border-radius: 3.5px;
+    animation-name: snake;
+    animation-duration: 0.7s;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes snake {
+    from {background-color: green;}
+    to {background-color: rgb(64, 75, 5);}
+  }

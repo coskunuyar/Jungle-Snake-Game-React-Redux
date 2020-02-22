@@ -1,0 +1,20 @@
+.star-red{
+    font-size: 20px;
+    color: red;
+}
+
+.star-yellow{
+    font-size: 20px;
+    color: yellow;
+}
+
+.star-white{
+    font-size: 20px;
+    color: white;
+}
+
+.star-result{
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 35%;
+}

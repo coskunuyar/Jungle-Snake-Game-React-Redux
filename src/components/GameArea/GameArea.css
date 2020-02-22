@@ -1,0 +1,61 @@
+.game-area {
+    position: relative;
+    margin: auto;
+    width: 900px;
+    height: 550px;
+    border: 5px solid rgb(235, 242, 237);
+    border-radius: 10px;
+    background-color: rgba(16, 35, 33, 0.9);
+    -webkit-box-shadow: -2px 6px 23px 6px rgba(77,107,35,1);
+    -moz-box-shadow: -2px 6px 23px 6px rgba(77,107,35,1);
+    box-shadow: -2px 6px 23px 6px rgba(77,107,35,1);
+  }
+
+  
+  .game-border-1 {
+    border-bottom-color: blue;
+    animation-name: border1;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+  }
+  
+  
+  .game-border-2 {
+    border-bottom-color: blue;
+    border-left-color: blue;
+    animation-name: border2;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+  }
+  
+  .game-border-3 {
+    border-bottom-color: blue;
+    border-left-color: blue;
+    border-top-color: blue;
+    animation-name: border3;
+    animation-duration: 1.5s;
+    animation-iteration-count:infinite;
+  }
+  
+  .game-border-4 {
+    border-bottom-color: green;
+    border-left-color: green;
+    border-top-color: green;
+    border-right-color: green;
+  }
+  
+  @keyframes border1{
+    from {border-bottom-color: blue}
+    to {border-bottom-color: green}
+  }
+  
+  @keyframes border2{
+    from {border-bottom-color: blue; border-left-color: blue;}
+    to {border-bottom-color: green; border-left-color: green;}
+  }
+  
+  @keyframes border3{
+    from {border-bottom-color: blue; border-left-color: blue; border-top-color: blue;}
+    to {border-bottom-color: green; border-left-color: green; border-top-color: green;}
+  }
+  
